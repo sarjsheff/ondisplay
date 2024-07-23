@@ -1,0 +1,6 @@
+[submodule "boards"]
+	path = boards
+	url = https://github.com/rzeldent/platformio-espressif32-sunton.git
+[submodule "lib/lvgl"]
+	path = lib/lvgl
+	url = https://github.com/lvgl/lvgl.git

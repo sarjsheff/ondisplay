@@ -1,0 +1,12 @@
+SET(SOURCES ui_sensorScreen.c
+    ui_logScreen.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    ui_img_thermometer_png.c
+    ui_img_humidity_png.c
+    ui_img_dew_png.c
+    fonts/ui_font_opensans16.c)
+
+add_library(ui ${SOURCES})
